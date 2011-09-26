@@ -1,0 +1,214 @@
+{
+  "bounds": [
+    -180,
+    -85.05112877980659,
+    180,
+    85.05112877980659
+  ],
+  "center": [
+    -77.03388512134548,
+    38.90121577203305,
+    13
+  ],
+  "format": "png",
+  "interactivity": false,
+  "minzoom": 10,
+  "maxzoom": 18,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "Datasource": {
+        "file": "layers/background/background.shp"
+      },
+      "srs": "",
+      "id": "background",
+      "name": "background",
+      "class": "",
+      "geometry": "polygon"
+    },
+    {
+      "Datasource": {
+        "file": "layers/park/park.shp"
+      },
+      "srs": "",
+      "id": "park",
+      "name": "park",
+      "class": "",
+      "geometry": "polygon"
+    },
+    {
+      "Datasource": {
+        "file": "layers/cemetery/cemetery.shp"
+      },
+      "srs": "",
+      "id": "cemetery",
+      "name": "cemetery",
+      "class": "",
+      "geometry": "polygon"
+    },
+    {
+      "Datasource": {
+        "file": "layers/water/water.shp",
+        "type": "shape"
+      },
+      "srs": "",
+      "id": "water",
+      "name": "water",
+      "class": "",
+      "geometry": "polygon"
+    },
+    {
+      "Datasource": {
+        "file": "layers/water-glow/water-glow.shp"
+      },
+      "srs": "",
+      "id": "water-glow",
+      "name": "water-glow",
+      "class": "",
+      "geometry": "polygon"
+    },
+    {
+      "Datasource": {
+        "file": "layers/wood/wood.shp",
+        "type": "shape"
+      },
+      "srs": "",
+      "id": "wood",
+      "name": "wood",
+      "class": "",
+      "geometry": "polygon"
+    },
+    {
+      "Datasource": {
+        "file": "layers/sidewalk/sidewalk.shp",
+        "type": "shape"
+      },
+      "srs": "",
+      "id": "sidewalk",
+      "name": "sidewalk",
+      "class": "",
+      "geometry": "polygon"
+    },
+    {
+      "Datasource": {
+        "file": "layers/building/building.shp",
+        "type": "shape"
+      },
+      "srs": "",
+      "id": "building",
+      "name": "building",
+      "class": "",
+      "geometry": "polygon"
+    },
+    {
+      "Datasource": {
+        "file": "layers/train.geojson",
+        "layer_by_index": "0"
+      },
+      "srs": "",
+      "id": "rail",
+      "name": "rail",
+      "class": "",
+      "geometry": "linestring"
+    },
+    {
+      "geometry": "polygon",
+      "name": "road-outline",
+      "id": "road-outline",
+      "srs": "",
+      "class": "",
+      "Datasource": {
+        "file": "layers/road/road.shp"
+      }
+    },
+    {
+      "Datasource": {
+        "file": "layers/road/road.shp",
+        "type": "shape"
+      },
+      "srs": "",
+      "id": "road",
+      "name": "road",
+      "class": "",
+      "geometry": "polygon"
+    },
+    {
+      "Datasource": {
+        "file": "layers/devseed-office/devseed-office.shp"
+      },
+      "srs": "",
+      "id": "hq",
+      "name": "hq",
+      "class": "",
+      "geometry": "polygon"
+    },
+    {
+      "Datasource": {
+        "file": "layers/neighborhood/neighborhood.shp",
+        "type": "shape"
+      },
+      "srs": "",
+      "id": "hoods",
+      "name": "hoods",
+      "class": "",
+      "geometry": "point"
+    },
+    {
+      "Datasource": {
+        "file": "layers/metro-station/metro-station.shp"
+      },
+      "srs": "",
+      "id": "metro-station",
+      "name": "metro-station",
+      "class": "",
+      "geometry": "point"
+    },
+    {
+      "Datasource": {
+        "file": "layers/metro-entrance/metro-entrance.shp"
+      },
+      "srs": "",
+      "id": "metro-entrance",
+      "name": "metro-entrance",
+      "class": "",
+      "geometry": "point"
+    },
+    {
+      "Datasource": {
+        "file": "layers/bikeshare/bikeshare.shp"
+      },
+      "srs": "",
+      "id": "cabi",
+      "name": "cabi",
+      "class": "",
+      "geometry": "point"
+    },
+    {
+      "Datasource": {
+        "file": "layers/bus-stop/bus-stop.shp"
+      },
+      "srs": "",
+      "id": "bus-stop",
+      "name": "bus-stop",
+      "class": "",
+      "geometry": "point"
+    },
+    {
+      "Datasource": {
+        "file": "layers/road-label/road-label.shp"
+      },
+      "srs": "",
+      "id": "road-labels",
+      "name": "road-labels",
+      "class": "",
+      "geometry": "linestring"
+    }
+  ],
+  "name": "DevSeed HQ",
+  "description": "A bright & textured map of DC featuring 1714 14th Street and public transportation options.",
+  "attribution": "",
+  "legend": ""
+}
